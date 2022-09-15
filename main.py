@@ -62,7 +62,7 @@ def parse_class_value(value: str):
     result["double"] = parse_value_info(class_value["double"])
     return result
 
-def get_class(path: str, class_name: str, type: str = "j") -> list:
+def get_class(path: str, class_name: str, type: str = "jk") -> list:
     xlsx = xlrd.open_workbook(path)
     table = xlsx.sheet_by_index(0)
 
@@ -83,20 +83,19 @@ def get_class(path: str, class_name: str, type: str = "j") -> list:
     class_week = []
     for i in range(5):
         day = []
-        if type == "j":
+        if type == "jk":
             for j in range(1, 9, 2):
                 value = table.cell_value(rows, i * 10 + j + 1)
                 res = parse_class_value(value)
-                res["index"] = j
+                res["index"] = int(j / 2) + 1
                 day.append(res)
-                class_week.append(day)
-        if type == "z":
+        if type == "zn":
             for j in range(1, 5):
                 value = table.cell_value(rows, i * 4 + j)
                 res = parse_class_value(value)
                 res["index"] = j
                 day.append(res)
-                class_week.append(day)
+        class_week.append(day)
 
     print(json.dumps(class_week, ensure_ascii=False, indent=4))
     return class_week
@@ -104,10 +103,10 @@ def get_class(path: str, class_name: str, type: str = "j") -> list:
 if __name__ == "__main__":
     # df = load_data("./execl/计算机系班级大课表2022-2023-1.xls"
     # data = df.head()
-    # class_name = "智能20-1"
-    class_name = "网工20-3"
-    # class_week = get_class("./execl/班级大课表2022-2023-1_添加实验课.xls", class_name)
-    class_week = get_class("./execl/new.xls", class_name)
+    class_name = "智能20-1"
+    # class_name = "网工20-3"
+    class_week = get_class("./execl/班级大课表2022-2023-1_添加实验课.xls", class_name, type="zn")
+    # class_week = get_class("./execl/new.xls", class_name, type="jk")
     if class_week is not None:
         with open("./data/{}.json".format(class_name), "w") as f:
             json.dump(class_week, f, indent=4, ensure_ascii=False)

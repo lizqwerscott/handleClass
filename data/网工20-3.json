@@ -8,33 +8,33 @@
         {
             "signal": "",
             "double": "",
+            "index": 2
+        },
+        {
+            "signal": {
+                "name": "数字逻辑电路(BKC1094043)",
+                "weeks": [
+                    {
+                        "teacher": "白宇星",
+                        "room": "汾东7-220",
+                        "week": "1-16周"
+                    }
+                ]
+            },
+            "double": {
+                "name": "数字逻辑电路(BKC1094043)",
+                "weeks": [
+                    {
+                        "teacher": "白宇星",
+                        "room": "汾东7-220",
+                        "week": "1-16周"
+                    }
+                ]
+            },
             "index": 3
         },
         {
             "signal": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-220",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-220",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
                 "name": "Python程序设计(BKC1093028)",
                 "weeks": [
                     {
@@ -54,181 +54,7 @@
                     }
                 ]
             },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": "",
-            "double": "",
-            "index": 1
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 3
-        },
-        {
-            "signal": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-220",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-220",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
-                "name": "Python程序设计(BKC1093028)",
-                "weeks": [
-                    {
-                        "teacher": "武子英",
-                        "room": "汾东7-215",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "Python程序设计(BKC1093028)",
-                "weeks": [
-                    {
-                        "teacher": "武子英",
-                        "room": "汾东7-215",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": "",
-            "double": "",
-            "index": 1
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 3
-        },
-        {
-            "signal": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-220",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-220",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
-                "name": "Python程序设计(BKC1093028)",
-                "weeks": [
-                    {
-                        "teacher": "武子英",
-                        "room": "汾东7-215",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "Python程序设计(BKC1093028)",
-                "weeks": [
-                    {
-                        "teacher": "武子英",
-                        "room": "汾东7-215",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": "",
-            "double": "",
-            "index": 1
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 3
-        },
-        {
-            "signal": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-220",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-220",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
-                "name": "Python程序设计(BKC1093028)",
-                "weeks": [
-                    {
-                        "teacher": "武子英",
-                        "room": "汾东7-215",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "Python程序设计(BKC1093028)",
-                "weeks": [
-                    {
-                        "teacher": "武子英",
-                        "room": "汾东7-215",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 7
+            "index": 4
         }
     ],
     [
@@ -276,7 +102,7 @@
                     }
                 ]
             },
-            "index": 3
+            "index": 2
         },
         {
             "signal": {
@@ -295,77 +121,6 @@
                     {
                         "teacher": "张媛",
                         "room": "汾东7-424",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东5-102(机房）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东5-102(机房）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-510",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-510",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 1
-        },
-        {
-            "signal": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-323",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-323",
                         "week": "1-16周"
                     }
                 ]
@@ -374,29 +129,6 @@
         },
         {
             "signal": {
-                "name": "信息安全导论(BKC1094037)",
-                "weeks": [
-                    {
-                        "teacher": "张媛",
-                        "room": "汾东7-424",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "信息安全导论(BKC1094037)",
-                "weeks": [
-                    {
-                        "teacher": "张媛",
-                        "room": "汾东7-424",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
                 "name": "Java程序设计(BKC1094006)",
                 "weeks": [
                     {
@@ -416,195 +148,7 @@
                     }
                 ]
             },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-510",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-510",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 1
-        },
-        {
-            "signal": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-323",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-323",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": {
-                "name": "信息安全导论(BKC1094037)",
-                "weeks": [
-                    {
-                        "teacher": "张媛",
-                        "room": "汾东7-424",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "信息安全导论(BKC1094037)",
-                "weeks": [
-                    {
-                        "teacher": "张媛",
-                        "room": "汾东7-424",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东5-102(机房）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东5-102(机房）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-510",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-510",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 1
-        },
-        {
-            "signal": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-323",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-323",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": {
-                "name": "信息安全导论(BKC1094037)",
-                "weeks": [
-                    {
-                        "teacher": "张媛",
-                        "room": "汾东7-424",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "信息安全导论(BKC1094037)",
-                "weeks": [
-                    {
-                        "teacher": "张媛",
-                        "room": "汾东7-424",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东5-102(机房）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东5-102(机房）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 7
+            "index": 4
         }
     ],
     [
@@ -634,7 +178,7 @@
                     }
                 ]
             },
-            "index": 3
+            "index": 2
         },
         {
             "signal": {
@@ -657,7 +201,7 @@
                     }
                 ]
             },
-            "index": 5
+            "index": 3
         },
         {
             "signal": "",
@@ -671,208 +215,7 @@
                     }
                 ]
             },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": "",
-            "double": "",
-            "index": 1
-        },
-        {
-            "signal": {
-                "name": "数字通信原理(BKC1094083)",
-                "weeks": [
-                    {
-                        "teacher": "郭银芳",
-                        "room": "汾东7-418",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "数字通信原理(BKC1094083)",
-                "weeks": [
-                    {
-                        "teacher": "郭银芳",
-                        "room": "汾东7-418",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": {
-                "name": "习近平新时代中国特色社会主义思想概论(BKA112022)",
-                "weeks": [
-                    {
-                        "teacher": "樊艳",
-                        "room": "汾东2-309",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "习近平新时代中国特色社会主义思想概论(BKA112022)",
-                "weeks": [
-                    {
-                        "teacher": "樊艳",
-                        "room": "汾东2-309",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": "",
-            "double": {
-                "name": "Python程序设计(BKC1093028)",
-                "weeks": [
-                    {
-                        "teacher": "武子英",
-                        "room": "汾东7-217",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": "",
-            "double": "",
-            "index": 1
-        },
-        {
-            "signal": {
-                "name": "数字通信原理(BKC1094083)",
-                "weeks": [
-                    {
-                        "teacher": "郭银芳",
-                        "room": "汾东7-418",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "数字通信原理(BKC1094083)",
-                "weeks": [
-                    {
-                        "teacher": "郭银芳",
-                        "room": "汾东7-418",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": {
-                "name": "习近平新时代中国特色社会主义思想概论(BKA112022)",
-                "weeks": [
-                    {
-                        "teacher": "樊艳",
-                        "room": "汾东2-309",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "习近平新时代中国特色社会主义思想概论(BKA112022)",
-                "weeks": [
-                    {
-                        "teacher": "樊艳",
-                        "room": "汾东2-309",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": "",
-            "double": {
-                "name": "Python程序设计(BKC1093028)",
-                "weeks": [
-                    {
-                        "teacher": "武子英",
-                        "room": "汾东7-217",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": "",
-            "double": "",
-            "index": 1
-        },
-        {
-            "signal": {
-                "name": "数字通信原理(BKC1094083)",
-                "weeks": [
-                    {
-                        "teacher": "郭银芳",
-                        "room": "汾东7-418",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "数字通信原理(BKC1094083)",
-                "weeks": [
-                    {
-                        "teacher": "郭银芳",
-                        "room": "汾东7-418",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": {
-                "name": "习近平新时代中国特色社会主义思想概论(BKA112022)",
-                "weeks": [
-                    {
-                        "teacher": "樊艳",
-                        "room": "汾东2-309",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "习近平新时代中国特色社会主义思想概论(BKA112022)",
-                "weeks": [
-                    {
-                        "teacher": "樊艳",
-                        "room": "汾东2-309",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": "",
-            "double": {
-                "name": "Python程序设计(BKC1093028)",
-                "weeks": [
-                    {
-                        "teacher": "武子英",
-                        "room": "汾东7-217",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 7
+            "index": 4
         }
     ],
     [
@@ -902,137 +245,17 @@
                     }
                 ]
             },
+            "index": 2
+        },
+        {
+            "signal": "",
+            "double": "",
             "index": 3
         },
         {
             "signal": "",
             "double": "",
-            "index": 5
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": "",
-            "double": "",
-            "index": 1
-        },
-        {
-            "signal": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东7-112",
-                        "week": "1-15周单周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东5-102(机房）",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 5
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": "",
-            "double": "",
-            "index": 1
-        },
-        {
-            "signal": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东7-112",
-                        "week": "1-15周单周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东5-102(机房）",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 5
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": "",
-            "double": "",
-            "index": 1
-        },
-        {
-            "signal": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东7-112",
-                        "week": "1-15周单周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "Java程序设计(BKC1094006)",
-                "weeks": [
-                    {
-                        "teacher": "翟超杰",
-                        "room": "汾东5-102(机房）",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 5
-        },
-        {
-            "signal": "",
-            "double": "",
-            "index": 7
+            "index": 4
         }
     ],
     [
@@ -1071,7 +294,7 @@
                     }
                 ]
             },
-            "index": 3
+            "index": 2
         },
         {
             "signal": "",
@@ -1085,85 +308,9 @@
                     }
                 ]
             },
-            "index": 5
-        },
-        {
-            "signal": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-322",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-322",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-307（网络）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-307（网络）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 1
-        },
-        {
-            "signal": "",
-            "double": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-221",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
             "index": 3
         },
         {
-            "signal": "",
-            "double": {
-                "name": "数字通信原理(BKC1094083)",
-                "weeks": [
-                    {
-                        "teacher": "郭银芳",
-                        "room": "汾东7-402",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
             "signal": {
                 "name": "计算机组成原理(BKB1094009)",
                 "weeks": [
@@ -1184,159 +331,7 @@
                     }
                 ]
             },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-307（网络）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-307（网络）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 1
-        },
-        {
-            "signal": "",
-            "double": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-221",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": "",
-            "double": {
-                "name": "数字通信原理(BKC1094083)",
-                "weeks": [
-                    {
-                        "teacher": "郭银芳",
-                        "room": "汾东7-402",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-322",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-322",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 7
-        }
-    ],
-    [
-        {
-            "signal": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-307（网络）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "网络工程(BKC1094036)",
-                "weeks": [
-                    {
-                        "teacher": "李烨东",
-                        "room": "汾东7-307（网络）",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 1
-        },
-        {
-            "signal": "",
-            "double": {
-                "name": "数字逻辑电路(BKC1094043)",
-                "weeks": [
-                    {
-                        "teacher": "白宇星",
-                        "room": "汾东7-221",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 3
-        },
-        {
-            "signal": "",
-            "double": {
-                "name": "数字通信原理(BKC1094083)",
-                "weeks": [
-                    {
-                        "teacher": "郭银芳",
-                        "room": "汾东7-402",
-                        "week": "2-16周双周"
-                    }
-                ]
-            },
-            "index": 5
-        },
-        {
-            "signal": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-322",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "double": {
-                "name": "计算机组成原理(BKB1094009)",
-                "weeks": [
-                    {
-                        "teacher": "李雪梅",
-                        "room": "汾东7-322",
-                        "week": "1-16周"
-                    }
-                ]
-            },
-            "index": 7
+            "index": 4
         }
     ]
 ]
