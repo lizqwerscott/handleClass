@@ -1,19 +1,43 @@
 import os
+from sys import float_repr_style
 import xlrd
 import json
+import math
+import re
 
-def parse_value_info(value: str):
-    class_value = {"teacher": "", "room": "", "name": ""}
-    if value == "":
-        return ""
+def split_name_number(value: str):
+    result = re.search(r"\d+-\d+\S+", value)
+    name = value[0:result.start()]
+    number = value[result.start():result.end()]
+    return [name, number]
+
+def parse_value_info_l(value: str, result: dict):
+    class_value_week = {"teacher": "", "room": "", "week": ""}
     data = value.split(" ")
-    class_value["name"] = data[0]
-    class_value["teacher"] = data[1]
-    class_value["room"] = data[2]
+    result["name"] = data[0]
+    a = split_name_number(data[1])
+    class_value_week["week"] = a[1]
+    class_value_week["teacher"] = a[0]
+    class_value_week["room"] = data[2]
+    result["weeks"].append(class_value_week)
+
+def parse_value_info(value: str | list):
+    class_value = {"name": "", "weeks": []}
+
+    if type(value) is str:
+        if value == "":
+            return ""
+        parse_value_info_l(value, class_value)
+
+    if type(value) is list:
+        parse_value_info_l(value[1], class_value)
+        parse_value_info_l(value[0], class_value)
+
     return class_value
 
 def parse_class_value(value: str):
     class_value = {"signal": "", "double": ""}
+
     #解析单双周
     data = value.split(";")
     if len(data) > 1:
@@ -21,9 +45,8 @@ def parse_class_value(value: str):
             class_value["double"] = data[0]
             class_value["signal"] = data[1]
         else:
-            class_value["double"] = value
-            class_value["signal"] = value
-
+            class_value["double"] = data
+            class_value["signal"] = data
     else:
         if "双周" in data[0]:
             class_value["double"] = data[0]
@@ -39,7 +62,7 @@ def parse_class_value(value: str):
     result["double"] = parse_value_info(class_value["double"])
     return result
 
-def get_class(path: str, class_name: str) -> list:
+def get_class(path: str, class_name: str, type: str = "j") -> list:
     xlsx = xlrd.open_workbook(path)
     table = xlsx.sheet_by_index(0)
 
@@ -60,23 +83,33 @@ def get_class(path: str, class_name: str) -> list:
     class_week = []
     for i in range(5):
         day = []
-        # for j in range(1, 9, 2):
-        for j in range(1, 5):
-            # value = table.cell_value(rows, i * 10 + j + 1)
-            value = table.cell_value(rows, i * 4 + j)
-            day.append(parse_class_value(value))
-            # print(value)
-        class_week.append(day)
-    # print(json.dumps(class_week, ensure_ascii=False, indent=4))
+        if type == "j":
+            for j in range(1, 9, 2):
+                value = table.cell_value(rows, i * 10 + j + 1)
+                res = parse_class_value(value)
+                res["index"] = j
+                day.append(res)
+                class_week.append(day)
+        if type == "z":
+            for j in range(1, 5):
+                value = table.cell_value(rows, i * 4 + j)
+                res = parse_class_value(value)
+                res["index"] = j
+                day.append(res)
+                class_week.append(day)
+
+    print(json.dumps(class_week, ensure_ascii=False, indent=4))
     return class_week
 
 if __name__ == "__main__":
     # df = load_data("./execl/计算机系班级大课表2022-2023-1.xls"
     # data = df.head()
-    class_week = get_class("./execl/班级大课表2022-2023-1_添加实验课.xls", "智能20-1")
-    # class_week = get_class("./execl/new.xls", "网工20-3")
-    if class_week != None:
-        with open("./data/智能20-1.json", "w") as f:
+    # class_name = "智能20-1"
+    class_name = "网工20-3"
+    # class_week = get_class("./execl/班级大课表2022-2023-1_添加实验课.xls", class_name)
+    class_week = get_class("./execl/new.xls", class_name)
+    if class_week is not None:
+        with open("./data/{}.json".format(class_name), "w") as f:
             json.dump(class_week, f, indent=4, ensure_ascii=False)
 
         print("单周:")
